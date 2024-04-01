@@ -1,0 +1,3570 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>update_trivia_table</internal_name>
+        <label_cache>[{"name":"{{action.question}}","label":"action➛Payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"06fa4e92-6671-4e6e-a076-354bfae158a8"}},{"name":"{{action.payload}}","label":"action➛Payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛Body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].status_code}}","label":"step➛Update Trivia Table➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].error_message}}","label":"step➛Update Trivia Table➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.code}}","label":"step➛Pre Processing➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.message}}","label":"step➛Pre Processing➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.code}}","label":"step➛Update Trivia Table➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.message}}","label":"step➛Update Trivia Table➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.code}}","label":"step➛Post Processing &amp; Error Handling➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.message}}","label":"step➛Post Processing &amp; Error Handling➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].response_body}}","label":"step➛Update Trivia Table➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].record}}","label":"step➛Post Processing &amp; Error Handling➛Record","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"dfd54e71-277d-44de-b8ff-47419c43394f"}}]</label_cache>
+        <master_snapshot>dc6dc34ec3c9c21099c5b4edd401319e</master_snapshot>
+        <name>Update Trivia Table</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:13:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>585803c6c3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Update Trivia Table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_585803c6c3c9c21099c5b4edd40131ff</sys_update_name>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>585803c6c3c9c21099c5b4edd40131ff</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>00a84fc6c3c9c21099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">8ca84fc6c3c9c21099c5b4edd40131db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>585803c6c3c9c21099c5b4edd40131ff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>08a84fc6c3c9c21099c5b4edd40131fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:31</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">c8a84fc6c3c9c21099c5b4edd40131d7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>585803c6c3c9c21099c5b4edd40131ff</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:36</sys_created_on>
+        <sys_id>006dc34ec3c9c21099c5b4edd401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</table>
+        <value>{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>585803c6c3c9c21099c5b4edd40131ff</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>8ca84fc6c3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>585803c6c3c9c21099c5b4edd40131ff</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>84a84fc6c3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN18acc30ec3c9c21099c5b4edd40131e5,2ddb87cac3c9c21099c5b4edd40131ac,3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action>
+        <cid>95c094d5-3720-4819-b7d9-11c6cfd70dad</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Post Processing &amp; Error Handling</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>18acc30ec3c9c21099c5b4edd40131e5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>18acc30ec3c9c21099c5b4edd40131e5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>94acc30ec3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    if (inputs.statusCode == "201") &#13;
+        outputs.record = JSON.parse(inputs.response_body)["result"];&#13;
+    else&#13;
+        throw new Error("There was error in creating a record. Please check the response body for more details.");&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>18acc30ec3c9c21099c5b4edd40131e5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>d0acc30ec3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>18acc30ec3c9c21099c5b4edd40131e5</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>9cacc30ec3c9c21099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>18acc30ec3c9c21099c5b4edd40131e5</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>731d4f0ec3c9c21099c5b4edd4013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_18acc30ec3c9c21099c5b4edd40131e5</table>
+        <value>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>18acc30ec3c9c21099c5b4edd40131e5</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>50acc30ec3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statusCode</field>
+        <id>18acc30ec3c9c21099c5b4edd40131e5</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>dcacc30ec3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_18acc30ec3c9c21099c5b4edd40131e5</table>
+        <value>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_18acc30ec3c9c21099c5b4edd40131e5^id=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=18acc30ec3c9c21099c5b4edd40131e5^sys_idNOT IN7b1d4f0ec3c9c21099c5b4edd4013100,9cacc30ec3c9c21099c5b4edd40131e8"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">18acc30ec3c9c21099c5b4edd40131e5</model>
+        <model_id>18acc30ec3c9c21099c5b4edd40131e5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_18acc30ec3c9c21099c5b4edd40131e5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>7b1d4f0ec3c9c21099c5b4edd4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>statusCode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">18acc30ec3c9c21099c5b4edd40131e5</model>
+        <model_id>18acc30ec3c9c21099c5b4edd40131e5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_18acc30ec3c9c21099c5b4edd40131e5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>9cacc30ec3c9c21099c5b4edd40131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=18acc30ec3c9c21099c5b4edd40131e5^sys_idNOT IN331d4f0ec3c9c21099c5b4edd4013110"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=dfd54e71-277d-44de-b8ff-47419c43394f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">18acc30ec3c9c21099c5b4edd40131e5</model>
+        <model_id>18acc30ec3c9c21099c5b4edd40131e5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_18acc30ec3c9c21099c5b4edd40131e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>331d4f0ec3c9c21099c5b4edd4013110</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18acc30ec3c9c21099c5b4edd40131e5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_18acc30ec3c9c21099c5b4edd40131e5^sys_idNOT INbb1d4f0ec3c9c21099c5b4edd4013112"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_18acc30ec3c9c21099c5b4edd40131e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>bb1d4f0ec3c9c21099c5b4edd4013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action>
+        <cid>8a4ea550-fd33-4099-aaf4-70b6d7db7fff</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:53</sys_created_on>
+        <sys_id>2ddb87cac3c9c21099c5b4edd40131ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddb87cac3c9c21099c5b4edd40131ac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>2ddb87cac3c9c21099c5b4edd40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ddb87cac3c9c21099c5b4edd40131ac</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>eddb87cac3c9c21099c5b4edd40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var body = JSON.parse(inputs.body);&#13;
+    var payload = {&#13;
+        "answer": body.correct,&#13;
+        "machinename": gs.getProperty('glide.servlet.uri'),&#13;
+        "opt_a": body.options[0],&#13;
+        "opt_b": body.options[1],&#13;
+        "opt_c": body.options[2],&#13;
+        "opt_d": body.options[3],&#13;
+        "question": body.question,&#13;
+    };&#13;
+    outputs.payload = JSON.stringify(payload);&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2ddb87cac3c9c21099c5b4edd40131ac</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>e5db87cac3c9c21099c5b4edd40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>2ddb87cac3c9c21099c5b4edd40131ac</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>a9db87cac3c9c21099c5b4edd40131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ddb87cac3c9c21099c5b4edd40131ac</table>
+        <value>{{action.body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2ddb87cac3c9c21099c5b4edd40131ac</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>a9db87cac3c9c21099c5b4edd40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2ddb87cac3c9c21099c5b4edd40131ac^id=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2ddb87cac3c9c21099c5b4edd40131ac^sys_idNOT IN25db87cac3c9c21099c5b4edd40131b4"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">2ddb87cac3c9c21099c5b4edd40131ac</model>
+        <model_id>2ddb87cac3c9c21099c5b4edd40131ac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2ddb87cac3c9c21099c5b4edd40131ac</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>25db87cac3c9c21099c5b4edd40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ddb87cac3c9c21099c5b4edd40131ac^sys_idNOT IN69db87cac3c9c21099c5b4edd40131b7"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=b018611a-c6e3-4839-a7b6-9654723a7e40</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Pre Processing">2ddb87cac3c9c21099c5b4edd40131ac</model>
+        <model_id>2ddb87cac3c9c21099c5b4edd40131ac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ddb87cac3c9c21099c5b4edd40131ac</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>69db87cac3c9c21099c5b4edd40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ddb87cac3c9c21099c5b4edd40131ac"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2ddb87cac3c9c21099c5b4edd40131ac^sys_idNOT IN69db87cac3c9c21099c5b4edd40131ba"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2ddb87cac3c9c21099c5b4edd40131ac</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>69db87cac3c9c21099c5b4edd40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action>
+        <cid>c9f03036-5be3-45ba-8e9a-c08100f6746e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Trivia Table</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>3ddb87cac3c9c21099c5b4edd40131ce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:31:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>31db87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>39dbc7cac3c9c21099c5b4edd4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>3ddb87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>api/now/table/x_snc_gamified_tut_trivia</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>54acc30ec3c9c21099c5b4edd40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>75dbc7cac3c9c21099c5b4edd4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>79db87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:31:45</sys_updated_on>
+        <value>2b2c681ec341061099c5b4edd40131cc</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>7ddb87cac3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>90acc30ec3c9c21099c5b4edd40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b1dbc7cac3c9c21099c5b4edd4013100</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:31:45</sys_updated_on>
+        <value>https://k8s0549467-node1.thunder.devsnc.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b5db87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b9db87cac3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>f1db87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3ddb87cac3c9c21099c5b4edd40131ce</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>fddb87cac3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3ddb87cac3c9c21099c5b4edd40131ce^id=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>75db87cac3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b1db87cac3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>31db87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>fddb87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>79db87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>39db87cac3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b9db87cac3c9c21099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>5cacc30ec3c9c21099c5b4edd40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>f5db87cac3c9c21099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>f1db87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>b5db87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:21</sys_created_on>
+        <sys_id>10acc30ec3c9c21099c5b4edd40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>3ddb87cac3c9c21099c5b4edd40131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>3ddb87cac3c9c21099c5b4edd40131ce</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:55</sys_created_on>
+        <sys_id>7ddb87cac3c9c21099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3ddb87cac3c9c21099c5b4edd40131ce^sys_idNOT INbddb87cac3c9c21099c5b4edd40131f2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=1a64b892-5bd0-49a8-b22e-1acb61abfa31</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Update Trivia Table">3ddb87cac3c9c21099c5b4edd40131ce</model>
+        <model_id>3ddb87cac3c9c21099c5b4edd40131ce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3ddb87cac3c9c21099c5b4edd40131ce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>bddb87cac3c9c21099c5b4edd40131f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ddb87cac3c9c21099c5b4edd40131ce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3ddb87cac3c9c21099c5b4edd40131ce^sys_idNOT IN79db87cac3c9c21099c5b4edd40131f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_3ddb87cac3c9c21099c5b4edd40131ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:54</sys_created_on>
+        <sys_id>79db87cac3c9c21099c5b4edd40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=585803c6c3c9c21099c5b4edd40131ff^sys_idNOT INa1db87cac3c9c21099c5b4edd4013194"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=04509905-c0d2-4001-9c24-6553e07937d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</model>
+        <model_id>585803c6c3c9c21099c5b4edd40131ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_585803c6c3c9c21099c5b4edd40131ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:53</sys_created_on>
+        <sys_id>a1db87cac3c9c21099c5b4edd4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a1db87cac3c9c21099c5b4edd4013194"/>
+    <sys_hub_action_output action="delete_multiple" query="model=585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN8ca84fc6c3c9c21099c5b4edd40131db,c8a84fc6c3c9c21099c5b4edd40131d7,ff1d4f0ec3c9c21099c5b4edd4013119"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=41df7239-33cb-4f50-a672-7eceedc3c3d4,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</model>
+        <model_id>585803c6c3c9c21099c5b4edd40131ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>8ca84fc6c3c9c21099c5b4edd40131db</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ca84fc6c3c9c21099c5b4edd40131db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ca84fc6c3c9c21099c5b4edd40131db"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5392f810-96ba-464d-b1f3-a1918e693cdd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</model>
+        <model_id>585803c6c3c9c21099c5b4edd40131ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>c8a84fc6c3c9c21099c5b4edd40131d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c8a84fc6c3c9c21099c5b4edd40131d7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c8a84fc6c3c9c21099c5b4edd40131d7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=9a79cb8a-44f3-42f7-aa01-682212adf56c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</model>
+        <model_id>585803c6c3c9c21099c5b4edd40131ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>ff1d4f0ec3c9c21099c5b4edd4013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ff1d4f0ec3c9c21099c5b4edd4013119"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff1d4f0ec3c9c21099c5b4edd4013119"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN44a84fc6c3c9c21099c5b4edd40131fe"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action_type_id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>44a84fc6c3c9c21099c5b4edd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=44a84fc6c3c9c21099c5b4edd40131fe^sys_idNOT IN60ac070ec3c9c21099c5b4edd4013107,a4ac070ec3c9c21099c5b4edd4013106,acac070ec3c9c21099c5b4edd4013106"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:14:52">44a84fc6c3c9c21099c5b4edd40131fe</action_status_metadata_id>
+        <condition>{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Post Processing &amp; Error Handling step fails</label>
+        <order>3</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:22</sys_created_on>
+        <sys_id>60ac070ec3c9c21099c5b4edd4013107</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:41:32</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:14:52">44a84fc6c3c9c21099c5b4edd40131fe</action_status_metadata_id>
+        <condition>{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Pre Processing step fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:22</sys_created_on>
+        <sys_id>a4ac070ec3c9c21099c5b4edd4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:14:52">44a84fc6c3c9c21099c5b4edd40131fe</action_status_metadata_id>
+        <condition>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Update Trivia Table step fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:32:22</sys_created_on>
+        <sys_id>acac070ec3c9c21099c5b4edd4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:32:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN65db87cac3c9c21099c5b4edd4013197"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_585803c6c3c9c21099c5b4edd40131ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:28:53</sys_created_on>
+        <sys_id>65db87cac3c9c21099c5b4edd4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:28:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN3f1d4f0ec3c9c21099c5b4edd4013129,80a84fc6c3c9c21099c5b4edd40131f9,c0a84fc6c3c9c21099c5b4edd40131db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:34:30</sys_created_on>
+        <sys_id>3f1d4f0ec3c9c21099c5b4edd4013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:34:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>80a84fc6c3c9c21099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:14:52</sys_created_on>
+        <sys_id>c0a84fc6c3c9c21099c5b4edd40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:14:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_585803c6c3c9c21099c5b4edd40131ff"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=585803c6c3c9c21099c5b4edd40131ff^sys_idNOT IN9d6d074ec3c9c21099c5b4edd40131da"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9d6d074ec3c9c21099c5b4edd40131da","name":"plan","plan_signature":null}}</plan>
+        <snapshot>65bc285ec341061099c5b4edd40131ed</snapshot>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d6d074ec3c9c21099c5b4edd40131da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:11</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>update_trivia_table</internal_name>
+        <label_cache>[{"name":"{{action.question}}","label":"action➛Payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"06fa4e92-6671-4e6e-a076-354bfae158a8"}},{"name":"{{action.payload}}","label":"action➛Payload","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛Body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].status_code}}","label":"step➛Update Trivia Table➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].error_message}}","label":"step➛Update Trivia Table➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.code}}","label":"step➛Pre Processing➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.message}}","label":"step➛Pre Processing➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.code}}","label":"step➛Update Trivia Table➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.message}}","label":"step➛Update Trivia Table➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.code}}","label":"step➛Post Processing &amp; Error Handling➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.message}}","label":"step➛Post Processing &amp; Error Handling➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].response_body}}","label":"step➛Update Trivia Table➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].record}}","label":"step➛Post Processing &amp; Error Handling➛Record","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"dfd54e71-277d-44de-b8ff-47419c43394f"}}]</label_cache>
+        <master>true</master>
+        <name>Update Trivia Table</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc6dc34ec3c9c21099c5b4edd401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:37</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>dc6dc34ec3c9c21099c5b4edd401319e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>286d074ec3c9c21099c5b4edd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">206dc34ec3c9c21099c5b4edd40131f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>dc6dc34ec3c9c21099c5b4edd401319e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>646d074ec3c9c21099c5b4edd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">a46dc34ec3c9c21099c5b4edd40131fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dc6dc34ec3c9c21099c5b4edd401319e</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>e06d074ec3c9c21099c5b4edd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</table>
+        <value>{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>dc6dc34ec3c9c21099c5b4edd401319e</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>206d074ec3c9c21099c5b4edd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>dc6dc34ec3c9c21099c5b4edd401319e</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>6c6d074ec3c9c21099c5b4edd4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN146dc34ec3c9c21099c5b4edd40131d3,5c6dc34ec3c9c21099c5b4edd40131b8,dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</action>
+        <cid>95c094d5-3720-4819-b7d9-11c6cfd70dad</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Post Processing &amp; Error Handling</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>146dc34ec3c9c21099c5b4edd40131d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>146dc34ec3c9c21099c5b4edd40131d3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>206dc34ec3c9c21099c5b4edd40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    if (inputs.statusCode == "201") &#13;
+        outputs.record = JSON.parse(inputs.response_body)["result"];&#13;
+    else&#13;
+        throw new Error("There was error in creating a record. Please check the response body for more details.");&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>146dc34ec3c9c21099c5b4edd40131d3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>6c6dc34ec3c9c21099c5b4edd40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>146dc34ec3c9c21099c5b4edd40131d3</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>286dc34ec3c9c21099c5b4edd40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>146dc34ec3c9c21099c5b4edd40131d3</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>686dc34ec3c9c21099c5b4edd40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_146dc34ec3c9c21099c5b4edd40131d3</table>
+        <value>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>146dc34ec3c9c21099c5b4edd40131d3</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>e86dc34ec3c9c21099c5b4edd40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statusCode</field>
+        <id>146dc34ec3c9c21099c5b4edd40131d3</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>2c6dc34ec3c9c21099c5b4edd40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_146dc34ec3c9c21099c5b4edd40131d3</table>
+        <value>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_146dc34ec3c9c21099c5b4edd40131d3^id=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=146dc34ec3c9c21099c5b4edd40131d3^sys_idNOT IN506dc34ec3c9c21099c5b4edd40131da,d86dc34ec3c9c21099c5b4edd40131d6"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">146dc34ec3c9c21099c5b4edd40131d3</model>
+        <model_id>146dc34ec3c9c21099c5b4edd40131d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_146dc34ec3c9c21099c5b4edd40131d3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>506dc34ec3c9c21099c5b4edd40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>statusCode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>statusCode</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">146dc34ec3c9c21099c5b4edd40131d3</model>
+        <model_id>146dc34ec3c9c21099c5b4edd40131d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_146dc34ec3c9c21099c5b4edd40131d3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d86dc34ec3c9c21099c5b4edd40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=146dc34ec3c9c21099c5b4edd40131d3^sys_idNOT INa46dc34ec3c9c21099c5b4edd40131dd"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=dfd54e71-277d-44de-b8ff-47419c43394f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Post Processing &amp; Error Handling">146dc34ec3c9c21099c5b4edd40131d3</model>
+        <model_id>146dc34ec3c9c21099c5b4edd40131d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_146dc34ec3c9c21099c5b4edd40131d3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>a46dc34ec3c9c21099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=146dc34ec3c9c21099c5b4edd40131d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_146dc34ec3c9c21099c5b4edd40131d3^sys_idNOT IN606dc34ec3c9c21099c5b4edd40131e0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_146dc34ec3c9c21099c5b4edd40131d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>606dc34ec3c9c21099c5b4edd40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</action>
+        <cid>c9f03036-5be3-45ba-8e9a-c08100f6746e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Trivia Table</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>5c6dc34ec3c9c21099c5b4edd40131b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>146dc34ec3c9c21099c5b4edd40131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>186dc34ec3c9c21099c5b4edd40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>api/now/table/x_snc_gamified_tut_trivia</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>1c6dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>506dc34ec3c9c21099c5b4edd40131ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+        <value>https://k8s0549467-node1.thunder.devsnc.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>546dc34ec3c9c21099c5b4edd40131cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+        <value>2b2c681ec341061099c5b4edd40131cc</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>586dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>906dc34ec3c9c21099c5b4edd40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>946dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>986dc34ec3c9c21099c5b4edd40131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>9c6dc34ec3c9c21099c5b4edd40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d46dc34ec3c9c21099c5b4edd40131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d86dc34ec3c9c21099c5b4edd40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c6dc34ec3c9c21099c5b4edd40131b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>dc6dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5c6dc34ec3c9c21099c5b4edd40131b8^id=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_element_mapping action="delete_multiple" query="id=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>9c6dc34ec3c9c21099c5b4edd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d86dc34ec3c9c21099c5b4edd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>946dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>186dc34ec3c9c21099c5b4edd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>dc6dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>146dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>106dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>546dc34ec3c9c21099c5b4edd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>5c6dc34ec3c9c21099c5b4edd40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>586dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>1c6dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>506dc34ec3c9c21099c5b4edd40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>906dc34ec3c9c21099c5b4edd40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>5c6dc34ec3c9c21099c5b4edd40131b8</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d06dc34ec3c9c21099c5b4edd40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5c6dc34ec3c9c21099c5b4edd40131b8^sys_idNOT INd46dc34ec3c9c21099c5b4edd40131c0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=1a64b892-5bd0-49a8-b22e-1acb61abfa31</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Update Trivia Table">5c6dc34ec3c9c21099c5b4edd40131b8</model>
+        <model_id>5c6dc34ec3c9c21099c5b4edd40131b8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5c6dc34ec3c9c21099c5b4edd40131b8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d46dc34ec3c9c21099c5b4edd40131c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c6dc34ec3c9c21099c5b4edd40131b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5c6dc34ec3c9c21099c5b4edd40131b8^sys_idNOT IN146dc34ec3c9c21099c5b4edd40131c3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5c6dc34ec3c9c21099c5b4edd40131b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>146dc34ec3c9c21099c5b4edd40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</action>
+        <cid>8a4ea550-fd33-4099-aaf4-70b6d7db7fff</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>dc6dc34ec3c9c21099c5b4edd40131a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dc6dc34ec3c9c21099c5b4edd40131a7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>986dc34ec3c9c21099c5b4edd40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var body = JSON.parse(inputs.body);&#13;
+    var payload = {&#13;
+        "answer": body.correct,&#13;
+        "machinename": gs.getProperty('glide.servlet.uri'),&#13;
+        "opt_a": body.options[0],&#13;
+        "opt_b": body.options[1],&#13;
+        "opt_c": body.options[2],&#13;
+        "opt_d": body.options[3],&#13;
+        "question": body.question,&#13;
+    };&#13;
+    outputs.payload = JSON.stringify(payload);&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dc6dc34ec3c9c21099c5b4edd40131a7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d46dc34ec3c9c21099c5b4edd40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dc6dc34ec3c9c21099c5b4edd40131a7</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>906dc34ec3c9c21099c5b4edd40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>dc6dc34ec3c9c21099c5b4edd40131a7</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d06dc34ec3c9c21099c5b4edd40131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dc6dc34ec3c9c21099c5b4edd40131a7</table>
+        <value>{{action.body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dc6dc34ec3c9c21099c5b4edd40131a7</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>546dc34ec3c9c21099c5b4edd40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_dc6dc34ec3c9c21099c5b4edd40131a7^id=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dc6dc34ec3c9c21099c5b4edd40131a7^sys_idNOT IN546dc34ec3c9c21099c5b4edd40131ab"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">dc6dc34ec3c9c21099c5b4edd40131a7</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd40131a7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dc6dc34ec3c9c21099c5b4edd40131a7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>546dc34ec3c9c21099c5b4edd40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dc6dc34ec3c9c21099c5b4edd40131a7^sys_idNOT INd06dc34ec3c9c21099c5b4edd40131af"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=b018611a-c6e3-4839-a7b6-9654723a7e40</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Pre Processing">dc6dc34ec3c9c21099c5b4edd40131a7</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd40131a7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dc6dc34ec3c9c21099c5b4edd40131a7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>d06dc34ec3c9c21099c5b4edd40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc6dc34ec3c9c21099c5b4edd40131a7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_dc6dc34ec3c9c21099c5b4edd40131a7^sys_idNOT IN9c6dc34ec3c9c21099c5b4edd40131b1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_dc6dc34ec3c9c21099c5b4edd40131a7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:38</sys_created_on>
+        <sys_id>9c6dc34ec3c9c21099c5b4edd40131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN9c6dc34ec3c9c21099c5b4edd40131a2"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=04509905-c0d2-4001-9c24-6553e07937d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd401319e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:37</sys_created_on>
+        <sys_id>9c6dc34ec3c9c21099c5b4edd40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9c6dc34ec3c9c21099c5b4edd40131a2"/>
+    <sys_hub_action_output action="delete_multiple" query="model=dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN206dc34ec3c9c21099c5b4edd40131f8,6c6dc34ec3c9c21099c5b4edd40131e7,a46dc34ec3c9c21099c5b4edd40131fb"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5392f810-96ba-464d-b1f3-a1918e693cdd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd401319e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>206dc34ec3c9c21099c5b4edd40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=206dc34ec3c9c21099c5b4edd40131f8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=206dc34ec3c9c21099c5b4edd40131f8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=9a79cb8a-44f3-42f7-aa01-682212adf56c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd401319e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>6c6dc34ec3c9c21099c5b4edd40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6c6dc34ec3c9c21099c5b4edd40131e7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c6dc34ec3c9c21099c5b4edd40131e7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=41df7239-33cb-4f50-a672-7eceedc3c3d4,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</model>
+        <model_id>dc6dc34ec3c9c21099c5b4edd401319e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>a46dc34ec3c9c21099c5b4edd40131fb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a46dc34ec3c9c21099c5b4edd40131fb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a46dc34ec3c9c21099c5b4edd40131fb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN2c6d074ec3c9c21099c5b4edd4013104"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</action_type_id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>2c6d074ec3c9c21099c5b4edd4013104</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2c6d074ec3c9c21099c5b4edd4013104^sys_idNOT IN21bc285ec341061099c5b4edd40131ec,29bc285ec341061099c5b4edd40131ec,a5bc285ec341061099c5b4edd40131ec"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:35:39">2c6d074ec3c9c21099c5b4edd4013104</action_status_metadata_id>
+        <condition>{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Pre Processing step fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[8a4ea550-fd33-4099-aaf4-70b6d7db7fff].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-22 00:32:08</sys_created_on>
+        <sys_id>21bc285ec341061099c5b4edd40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:35:39">2c6d074ec3c9c21099c5b4edd4013104</action_status_metadata_id>
+        <condition>{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Post Processing &amp; Error Handling step fails</label>
+        <order>3</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[95c094d5-3720-4819-b7d9-11c6cfd70dad].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-22 00:32:08</sys_created_on>
+        <sys_id>29bc285ec341061099c5b4edd40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-03-21 10:35:39">2c6d074ec3c9c21099c5b4edd4013104</action_status_metadata_id>
+        <condition>{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Update Trivia Table step fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[c9f03036-5be3-45ba-8e9a-c08100f6746e].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-22 00:32:08</sys_created_on>
+        <sys_id>a5bc285ec341061099c5b4edd40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-22 00:32:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN506dc34ec3c9c21099c5b4edd40131a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:37</sys_created_on>
+        <sys_id>506dc34ec3c9c21099c5b4edd40131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e^sys_idNOT IN646dc34ec3c9c21099c5b4edd40131f7,e46dc34ec3c9c21099c5b4edd40131ff,e86dc34ec3c9c21099c5b4edd40131fa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>646dc34ec3c9c21099c5b4edd40131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>e46dc34ec3c9c21099c5b4edd40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:35:39</sys_created_on>
+        <sys_id>e86dc34ec3c9c21099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:35:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dc6dc34ec3c9c21099c5b4edd401319e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>585803c6c3c9c21099c5b4edd40131ff</sys_id>
+        <latest_snapshot>dc6dc34ec3c9c21099c5b4edd401319e</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-hotfix1-02-01-2024_02-02-2024_1052.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

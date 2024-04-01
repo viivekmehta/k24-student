@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>opengate</internal_name>
+        <label_cache>[{"name":"{{step[3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee].record.value}}","label":"step➛Look Up Record step➛System Property Record➛Value","type":"step","ref":"","reference_display":"Value","base_type":"string","parent_table_name":"sys_properties","column_name":"value","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>83117455c319025099c5b4edd40131dc</master_snapshot>
+        <name>OpenGate</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:42:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f5cf349c315025099c5b4edd401310a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>OpenGate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3f5cf349c315025099c5b4edd401310a</sys_update_name>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f5cf349c315025099c5b4edd401310a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3f5cf349c315025099c5b4edd401310a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3f5cf349c315025099c5b4edd401310a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>023db789c315025099c5b4edd40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:25</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">793db789c315025099c5b4edd40131e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3f5cf349c315025099c5b4edd401310a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>4e3db789c315025099c5b4edd40131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4e3db789c315025099c5b4edd40131e8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a^id=3f5cf349c315025099c5b4edd401310a"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=3f5cf349c315025099c5b4edd401310a^sys_idNOT INc1c99499c395025099c5b4edd40131ea,e13db789c315025099c5b4edd4013185"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action>
+        <cid>3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 06:51:09</sys_created_on>
+        <sys_id>c1c99499c395025099c5b4edd40131ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 07:07:20</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c1c99499c395025099c5b4edd40131ea</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 07:07:20</sys_created_on>
+        <sys_id>1e7d9c9dc395025099c5b4edd40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 07:07:20</sys_updated_on>
+        <value>name=instance_name</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c1c99499c395025099c5b4edd40131ea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 06:51:40</sys_created_on>
+        <sys_id>78e95899c395025099c5b4edd40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 06:51:40</sys_updated_on>
+        <value>sys_properties</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1c99499c395025099c5b4edd40131ea"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c1c99499c395025099c5b4edd40131ea"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action>
+        <cid>962fc8e0-f3c5-43ee-aefc-116aa6a5b13c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:23</sys_created_on>
+        <sys_id>e13db789c315025099c5b4edd4013185</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 07:09:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e13db789c315025099c5b4edd4013185"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>3c60cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>3d3db789c315025099c5b4edd40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>753db789c315025099c5b4edd40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>7860cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <value>/api/x_snc_gamified_tut/opengate</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>793db789c315025099c5b4edd40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>2b2c681ec341061099c5b4edd40131cc</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>b13db789c315025099c5b4edd40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>b460cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>b53db789c315025099c5b4edd40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>f13db789c315025099c5b4edd40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>f93db789c315025099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>fc60cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e13db789c315025099c5b4edd4013185</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>fd3db789c315025099c5b4edd40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <value>https://k8s0549467-node1.thunder.devsnc.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e13db789c315025099c5b4edd4013185^id=e13db789c315025099c5b4edd4013185"/>
+    <sys_element_mapping action="delete_multiple" query="id=e13db789c315025099c5b4edd4013185"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>b53db789c315025099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>f13db789c315025099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 07:09:13</sys_created_on>
+        <sys_id>75edd4ddc395025099c5b4edd40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 07:09:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"machine":"{{step[3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee].record.value}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>313db789c315025099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>7d3db789c315025099c5b4edd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>793db789c315025099c5b4edd40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>7060cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>313db789c315025099c5b4edd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>b93db789c315025099c5b4edd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:15</sys_created_on>
+        <sys_id>f860cc5dc315025099c5b4edd4013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:16</sys_created_on>
+        <sys_id>3460cc5dc315025099c5b4edd4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 05:00:15</sys_created_on>
+        <sys_id>bc60cc5dc315025099c5b4edd4013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>e13db789c315025099c5b4edd4013185</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>f53db789c315025099c5b4edd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=e13db789c315025099c5b4edd4013185"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e13db789c315025099c5b4edd4013185"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e13db789c315025099c5b4edd4013185^sys_idNOT INfd3db789c315025099c5b4edd40131a9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=175b04e3-bc68-4ad9-9f80-860fa6455597</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e13db789c315025099c5b4edd4013185</model>
+        <model_id>e13db789c315025099c5b4edd4013185</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e13db789c315025099c5b4edd4013185</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>fd3db789c315025099c5b4edd40131a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 05:00:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e13db789c315025099c5b4edd4013185"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e13db789c315025099c5b4edd4013185^sys_idNOT IN753db789c315025099c5b4edd40131af"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_e13db789c315025099c5b4edd4013185</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>753db789c315025099c5b4edd40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=3f5cf349c315025099c5b4edd401310a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3f5cf349c315025099c5b4edd401310a^sys_idNOT IN4e3db789c315025099c5b4edd40131e8,793db789c315025099c5b4edd40131e4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=41b0b0ca-804c-4b01-9177-1a6c9c5d09f7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</model>
+        <model_id>3f5cf349c315025099c5b4edd401310a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>4e3db789c315025099c5b4edd40131e8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4e3db789c315025099c5b4edd40131e8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4e3db789c315025099c5b4edd40131e8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ee675e2e-9fdf-4922-964a-6a6c33662532</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</model>
+        <model_id>3f5cf349c315025099c5b4edd401310a</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:24</sys_created_on>
+        <sys_id>793db789c315025099c5b4edd40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=793db789c315025099c5b4edd40131e4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=793db789c315025099c5b4edd40131e4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3f5cf349c315025099c5b4edd401310a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3f5cf349c315025099c5b4edd401310a^sys_idNOT IN8e3db789c315025099c5b4edd40131f1"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action_type_id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>8e3db789c315025099c5b4edd40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:25</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8e3db789c315025099c5b4edd40131f1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3f5cf349c315025099c5b4edd401310a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3f5cf349c315025099c5b4edd401310a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a^sys_idNOT IN463db789c315025099c5b4edd40131ed,823db789c315025099c5b4edd40131e8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>463db789c315025099c5b4edd40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 04:46:25</sys_created_on>
+        <sys_id>823db789c315025099c5b4edd40131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 04:46:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3f5cf349c315025099c5b4edd401310a"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3f5cf349c315025099c5b4edd401310a^sys_idNOT INf711b455c319025099c5b4edd401318b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f711b455c319025099c5b4edd401318b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>1311b455c319025099c5b4edd4013134</snapshot>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f711b455c319025099c5b4edd401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:11</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>opengate</internal_name>
+        <label_cache>[{"name":"{{step[3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee].record.value}}","label":"step➛Look Up Record step➛System Property Record➛Value","type":"step","ref":"","reference_display":"Value","base_type":"string","parent_table_name":"sys_properties","column_name":"value","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>OpenGate</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83117455c319025099c5b4edd40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=83117455c319025099c5b4edd40131dc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=83117455c319025099c5b4edd40131dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>83117455c319025099c5b4edd40131dc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>5711b455c319025099c5b4edd4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">9f11b455c319025099c5b4edd4013101</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>83117455c319025099c5b4edd40131dc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>9311b455c319025099c5b4edd4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9b11b455c319025099c5b4edd401311e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc^id=83117455c319025099c5b4edd40131dc"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=83117455c319025099c5b4edd40131dc^sys_idNOT IN0b117455c319025099c5b4edd40131e7,4b117455c319025099c5b4edd40131e0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenGate">83117455c319025099c5b4edd40131dc</action>
+        <cid>962fc8e0-f3c5-43ee-aefc-116aa6a5b13c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>0b117455c319025099c5b4edd40131e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0b117455c319025099c5b4edd40131e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>13117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>1b117455c319025099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>1f117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>/api/x_snc_gamified_tut/opengate</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>57117455c319025099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>https://k8s0549467-node1.thunder.devsnc.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>5b117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>2b2c681ec341061099c5b4edd40131cc</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>5f117455c319025099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>93117455c319025099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>97117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>9f117455c319025099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>d3117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>db117455c319025099c5b4edd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b117455c319025099c5b4edd40131e7</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>df117455c319025099c5b4edd40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0b117455c319025099c5b4edd40131e7^id=0b117455c319025099c5b4edd40131e7"/>
+    <sys_element_mapping action="delete_multiple" query="id=0b117455c319025099c5b4edd40131e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>57117455c319025099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>93117455c319025099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>5f117455c319025099c5b4edd40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"machine":"{{step[3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee].record.value}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>df117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>97117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>db117455c319025099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>1f117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>d7117455c319025099c5b4edd40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>13117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>d3117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>1b117455c319025099c5b4edd40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>5b117455c319025099c5b4edd40131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>0b117455c319025099c5b4edd40131e7</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>9b117455c319025099c5b4edd40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b117455c319025099c5b4edd40131e7"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=0b117455c319025099c5b4edd40131e7"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0b117455c319025099c5b4edd40131e7^sys_idNOT IN43117455c319025099c5b4edd40131ef"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=175b04e3-bc68-4ad9-9f80-860fa6455597</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0b117455c319025099c5b4edd40131e7</model>
+        <model_id>0b117455c319025099c5b4edd40131e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0b117455c319025099c5b4edd40131e7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>43117455c319025099c5b4edd40131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0b117455c319025099c5b4edd40131e7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0b117455c319025099c5b4edd40131e7^sys_idNOT IN8f117455c319025099c5b4edd40131f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0b117455c319025099c5b4edd40131e7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>8f117455c319025099c5b4edd40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenGate">83117455c319025099c5b4edd40131dc</action>
+        <cid>3ba6f6ac-5a28-4adc-bfd3-65cd8d032eee</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>4b117455c319025099c5b4edd40131e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b117455c319025099c5b4edd40131e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4b117455c319025099c5b4edd40131e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>83117455c319025099c5b4edd40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <value>name=instance_name</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4b117455c319025099c5b4edd40131e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:08</sys_created_on>
+        <sys_id>cf117455c319025099c5b4edd40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:08</sys_updated_on>
+        <value>sys_properties</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=4b117455c319025099c5b4edd40131e0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b117455c319025099c5b4edd40131e0"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4b117455c319025099c5b4edd40131e0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4b117455c319025099c5b4edd40131e0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4b117455c319025099c5b4edd40131e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4b117455c319025099c5b4edd40131e0"/>
+    <sys_hub_action_input action="delete_multiple" query="model=83117455c319025099c5b4edd40131dc"/>
+    <sys_hub_action_output action="delete_multiple" query="model=83117455c319025099c5b4edd40131dc^sys_idNOT IN9b11b455c319025099c5b4edd401311e,9f11b455c319025099c5b4edd4013101"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=41b0b0ca-804c-4b01-9177-1a6c9c5d09f7,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OpenGate">83117455c319025099c5b4edd40131dc</model>
+        <model_id>83117455c319025099c5b4edd40131dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>9b11b455c319025099c5b4edd401311e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b11b455c319025099c5b4edd401311e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b11b455c319025099c5b4edd401311e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ee675e2e-9fdf-4922-964a-6a6c33662532</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="OpenGate">83117455c319025099c5b4edd40131dc</model>
+        <model_id>83117455c319025099c5b4edd40131dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>9f11b455c319025099c5b4edd4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9f11b455c319025099c5b4edd4013101"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9f11b455c319025099c5b4edd4013101"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=83117455c319025099c5b4edd40131dc"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=83117455c319025099c5b4edd40131dc^sys_idNOT INd311b455c319025099c5b4edd4013127"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="OpenGate">83117455c319025099c5b4edd40131dc</action_type_id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>d311b455c319025099c5b4edd4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d311b455c319025099c5b4edd4013127"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_83117455c319025099c5b4edd40131dc"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_83117455c319025099c5b4edd40131dc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc^sys_idNOT INdb11b455c319025099c5b4edd4013122,df11b455c319025099c5b4edd401311d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>db11b455c319025099c5b4edd4013122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:33:09</sys_created_on>
+        <sys_id>df11b455c319025099c5b4edd401311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:33:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_83117455c319025099c5b4edd40131dc"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>3f5cf349c315025099c5b4edd401310a</sys_id>
+        <latest_snapshot>83117455c319025099c5b4edd40131dc</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-hotfix1-02-01-2024_02-02-2024_1052.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

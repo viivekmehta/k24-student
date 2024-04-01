@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=703385000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>is_user_part_of_group</internal_name>
+        <label_cache>[{"name":"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member","label":"4 - Is User in Group➛Is Member","reference_display":"Is Member","type":"boolean","base_type":"boolean","usedInstances":{"0037b282-5d9c-44e2-8f96-2f2e854ae706":["is_user_in_group-0"],"9d10d96c-3a9d-43d2-b06a-3739fc08f145":["condition"]},"attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ff68a0b-3153-4a43-9cc0-805e367ad2db"}},{"name":"7fa768d7-7fad-46f0-bf7a-c17102a1e5c3.variable.externalId","label":"2 - Look up Users Stream➛User Details➛External ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"57e91de7-e47a-43ce-aad1-4cb0c0014f82":["okta_user_id-0"]},"attributes":{}},{"name":"078b15cd-053c-492d-8d73-5bbf18f3e8e0.okta_id","label":"1 - Look up Group ID by Name➛Okta Group ID","reference_display":"Okta Group ID","type":"string","base_type":"string","usedInstances":{"57e91de7-e47a-43ce-aad1-4cb0c0014f82":["okta_group_id-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5697d4d2-3b52-4415-984b-b0d5323294a0"}},{"name":"flow_variable.okta_user_id","label":"Flow Variables➛Okta User ID","type":"string","base_type":"string","usedInstances":{"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6":["okta_id"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"692add35-a6b1-4e45-9e5e-176d933df055"}},{"name":"flow_variable.okta_group_id","label":"Flow Variables➛Okta Group ID","type":"string","base_type":"string","usedInstances":{"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6":["group_okta_id"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e4996186-f08f-4d15-abb9-47a94af8196b"}},{"name":"subflow.user_name","label":"Input➛Bot Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"97d58bd9-b168-4af2-a262-cfcbf17ff41e":["display_name"]}},{"name":"subflow.group_name","label":"Input➛Residents Group Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"03968c55-83e7-46ec-96b6-0ec344d0aa62":["display_name"],"078b15cd-053c-492d-8d73-5bbf18f3e8e0":["okta_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4722bea7-420f-4be4-93d8-544c51c1b4b6","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>9777872ec3054610923701e9d001313d</master_snapshot>
+        <name>Is Bot member of Residence</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:12:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d586f226c3c14610923701e9d00131cc</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>Is Bot member of Residence</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>sys_hub_flow_d586f226c3c14610923701e9d00131cc</sys_update_name>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:02</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d586f226c3c14610923701e9d00131cc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d586f226c3c14610923701e9d00131cc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc^id=d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d586f226c3c14610923701e9d00131cc"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d586f226c3c14610923701e9d00131cc^sys_idNOT IN1586f226c3c14610923701e9d00131cf"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d586f226c3c14610923701e9d00131cc</id>
+        <name>Is user part of group</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:12:43</sys_created_on>
+        <sys_id>1586f226c3c14610923701e9d00131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 05:12:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1586f226c3c14610923701e9d00131cf"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d586f226c3c14610923701e9d00131cc^sys_idNOT IN059ff2a2c3054610923701e9d00131f5,859ffa62c3054610923701e9d0013196"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4722bea7-420f-4be4-93d8-544c51c1b4b6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Spokeland Residence</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Residents Group Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</model>
+        <model_id>d586f226c3c14610923701e9d00131cc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:52:18</sys_created_on>
+        <sys_id>059ff2a2c3054610923701e9d00131f5</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=059ff2a2c3054610923701e9d00131f5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=792e9185-fb46-420a-b6f9-d9d510827222</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Guide Bot</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Bot Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</model>
+        <model_id>d586f226c3c14610923701e9d00131cc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:52:18</sys_created_on>
+        <sys_id>859ffa62c3054610923701e9d0013196</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=859ffa62c3054610923701e9d0013196"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d586f226c3c14610923701e9d00131cc^sys_idNOT INf3044be6c3054610923701e9d001318b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=720898ac-2070-4df3-aecf-a50d02d49cb3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>is_user_in_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Is Bot member of Residence</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</model>
+        <model_id>d586f226c3c14610923701e9d00131cc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:52</sys_created_on>
+        <sys_id>f3044be6c3054610923701e9d001318b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f3044be6c3054610923701e9d001318b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d586f226c3c14610923701e9d00131cc^sys_idNOT IN05a1b095c319025099c5b4edd4013112,1dbfb6a2c3054610923701e9d00131d6,5f30cfa2c3054610923701e9d00131fb,aad347e6c3054610923701e9d00131d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="OpenGate">83117455c319025099c5b4edd40131dc</action_type>
+        <action_type_parent display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9d10d96c-3a9d-43d2-b06a-3739fc08f145</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:35:27</sys_created_on>
+        <sys_id>05a1b095c319025099c5b4edd4013112</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:02</sys_updated_on>
+        <ui_id>86c89eff-9a6d-49e3-a8bb-7f22f1c84d04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=05a1b095c319025099c5b4edd4013112"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=05a1b095c319025099c5b4edd4013112"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=05a1b095c319025099c5b4edd4013112"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look up Group ID by Name">dc2a00d2133ed300d44a32228144b087</action_type>
+        <action_type_parent display_value="Look up Group ID by Name">aab39902137ad30056193192e144b09a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:52:51</sys_created_on>
+        <sys_id>1dbfb6a2c3054610923701e9d00131d6</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:01</sys_updated_on>
+        <ui_id>078b15cd-053c-492d-8d73-5bbf18f3e8e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1dbfb6a2c3054610923701e9d00131d6"/>
+    <sys_element_mapping action="delete_multiple" query="id=1dbfb6a2c3054610923701e9d00131d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_id</field>
+        <id>1dbfb6a2c3054610923701e9d00131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:59:27</sys_created_on>
+        <sys_id>3931cfe2c3054610923701e9d0013184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 05:59:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc2a00d2133ed300d44a32228144b087</table>
+        <value>{{subflow.group_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1dbfb6a2c3054610923701e9d00131d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1dbfb6a2c3054610923701e9d00131d6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look up Users Stream">940828780f861010c0a0579ac4767e8c</action_type>
+        <action_type_parent display_value="Look up Users Stream">605d5cb00f861010c0a0579ac4767e0a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:55:10</sys_created_on>
+        <sys_id>5f30cfa2c3054610923701e9d00131fb</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:01</sys_updated_on>
+        <ui_id>7fa768d7-7fad-46f0-bf7a-c17102a1e5c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5f30cfa2c3054610923701e9d00131fb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_940828780f861010c0a0579ac4767e8c^id=5f30cfa2c3054610923701e9d00131fb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5f30cfa2c3054610923701e9d00131fb^sys_idNOT IN7931cfe2c3054610923701e9d0013186"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>filter</input_name>
+        <instance>5f30cfa2c3054610923701e9d00131fb</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"filter":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar firstName \u003d fd_data.subflow_inputs.user_name.split(\" \")[0];\nvar lastName \u003d fd_data.subflow_inputs.user_name.split(\" \")[1];\nreturn \u0027profile.firstName eq \"\u0027+firstName+\u0027\" and profile.lastName eq \"\u0027+lastName+\u0027\"\u0027;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:59:27</sys_created_on>
+        <sys_id>7931cfe2c3054610923701e9d0013186</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:09:09</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5f30cfa2c3054610923701e9d00131fb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Is User in Group">6d2efc1a13bed300d44a32228144b05b</action_type>
+        <action_type_parent display_value="Is User in Group">bc39349613bed300d44a32228144b01d</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:10:58</sys_created_on>
+        <sys_id>aad347e6c3054610923701e9d00131d6</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:01</sys_updated_on>
+        <ui_id>7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aad347e6c3054610923701e9d00131d6"/>
+    <sys_element_mapping action="delete_multiple" query="id=aad347e6c3054610923701e9d00131d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_okta_id</field>
+        <id>aad347e6c3054610923701e9d00131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:06</sys_created_on>
+        <sys_id>e0e307e6c3054610923701e9d001310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d2efc1a13bed300d44a32228144b05b</table>
+        <value>{{flow_variable.okta_group_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_id</field>
+        <id>aad347e6c3054610923701e9d00131d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:06</sys_created_on>
+        <sys_id>a4e307e6c3054610923701e9d001310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d2efc1a13bed300d44a32228144b05b</table>
+        <value>{{flow_variable.okta_user_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aad347e6c3054610923701e9d00131d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aad347e6c3054610923701e9d00131d6"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d586f226c3c14610923701e9d00131cc^sys_idNOT IN5661f455c319025099c5b4edd4013103,a00407e6c3054610923701e9d0013188,d0614ba2c3054610923701e9d001313b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c3a1b095c319025099c5b4edd40131f6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:34:27</sys_created_on>
+        <sys_id>5661f455c319025099c5b4edd4013103</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:01</sys_updated_on>
+        <ui_id>9d10d96c-3a9d-43d2-b06a-3739fc08f145</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5661f455c319025099c5b4edd4013103"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc^id=5661f455c319025099c5b4edd4013103"/>
+    <sys_element_mapping action="delete_multiple" query="id=5661f455c319025099c5b4edd4013103"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5661f455c319025099c5b4edd4013103</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:35:27</sys_created_on>
+        <sys_id>09a1b095c319025099c5b4edd4013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc^id=5661f455c319025099c5b4edd4013103"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5661f455c319025099c5b4edd4013103"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5661f455c319025099c5b4edd4013103"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">73048be6c3054610923701e9d001317d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>is_user_in_group</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:39</sys_created_on>
+        <sys_id>a00407e6c3054610923701e9d0013188</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:02</sys_updated_on>
+        <ui_id>0037b282-5d9c-44e2-8f96-2f2e854ae706</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a00407e6c3054610923701e9d0013188"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a00407e6c3054610923701e9d0013188</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:53</sys_created_on>
+        <sys_id>73048be6c3054610923701e9d0013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:11:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Bot member of Residence">f3044be6c3054610923701e9d001318b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc^id=a00407e6c3054610923701e9d0013188"/>
+    <sys_element_mapping action="delete_multiple" query="id=a00407e6c3054610923701e9d0013188"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_user_in_group</field>
+        <id>a00407e6c3054610923701e9d0013188</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:53</sys_created_on>
+        <sys_id>ff048be6c3054610923701e9d001317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:11:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc</table>
+        <value>{{7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a00407e6c3054610923701e9d0013188"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a00407e6c3054610923701e9d0013188"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8ce14f26c3054610923701e9d00131d6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>okta_user_id,okta_group_id</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7fa768d7-7fad-46f0-bf7a-c17102a1e5c3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:00:10</sys_created_on>
+        <sys_id>d0614ba2c3054610923701e9d001313b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:01</sys_updated_on>
+        <ui_id>57e91de7-e47a-43ce-aad1-4cb0c0014f82</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d0614ba2c3054610923701e9d001313b"/>
+    <sys_element_mapping action="delete_multiple" query="id=d0614ba2c3054610923701e9d001313b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_group_id</field>
+        <id>d0614ba2c3054610923701e9d001313b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:02:14</sys_created_on>
+        <sys_id>a6d14f26c3054610923701e9d0013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:02:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc</table>
+        <value>{{078b15cd-053c-492d-8d73-5bbf18f3e8e0.okta_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_user_id</field>
+        <id>d0614ba2c3054610923701e9d001313b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:02:14</sys_created_on>
+        <sys_id>eed14f26c3054610923701e9d0013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:02:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc</table>
+        <value>{{7fa768d7-7fad-46f0-bf7a-c17102a1e5c3.variable.externalId}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc^id=d0614ba2c3054610923701e9d001313b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d0614ba2c3054610923701e9d001313b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d0614ba2c3054610923701e9d001313b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d586f226c3c14610923701e9d00131cc^sys_idNOT IN6f518326c3054610923701e9d00131ca,97518326c3054610923701e9d00131c7"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e4996186-f08f-4d15-abb9-47a94af8196b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>okta_group_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Okta Group ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</model>
+        <model_id>d586f226c3c14610923701e9d00131cc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:00:06</sys_created_on>
+        <sys_id>6f518326c3054610923701e9d00131ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:02:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=692add35-a6b1-4e45-9e5e-176d933df055</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>okta_user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Okta User ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</model>
+        <model_id>d586f226c3c14610923701e9d00131cc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_d586f226c3c14610923701e9d00131cc</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:00:05</sys_created_on>
+        <sys_id>97518326c3054610923701e9d00131c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:02:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc^sys_idNOT IN099ff2a2c3054610923701e9d00131f4,819ff2a2c3054610923701e9d00131f7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_name</element>
+        <help/>
+        <hint/>
+        <label>Bot Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:52:18</sys_created_on>
+        <sys_id>099ff2a2c3054610923701e9d00131f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group_name</element>
+        <help/>
+        <hint/>
+        <label>Residents Group Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:52:18</sys_created_on>
+        <sys_id>819ff2a2c3054610923701e9d00131f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d586f226c3c14610923701e9d00131cc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc^sys_idNOT INff044be6c3054610923701e9d001318d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>is_user_in_group</element>
+        <help/>
+        <hint/>
+        <label>Is Bot member of Residence</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:11:52</sys_created_on>
+        <sys_id>ff044be6c3054610923701e9d001318d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d586f226c3c14610923701e9d00131cc"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>is_bot_member_of_residence</internal_name>
+        <label_cache>[{"name":"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member","label":"4 - Is User in Group➛Is Member","reference_display":"Is Member","type":"boolean","base_type":"boolean","usedInstances":{"0037b282-5d9c-44e2-8f96-2f2e854ae706":["is_user_in_group-0"],"9d10d96c-3a9d-43d2-b06a-3739fc08f145":["condition"]},"attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4ff68a0b-3153-4a43-9cc0-805e367ad2db"}},{"name":"7fa768d7-7fad-46f0-bf7a-c17102a1e5c3.variable.externalId","label":"2 - Look up Users Stream➛User Details➛External ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"57e91de7-e47a-43ce-aad1-4cb0c0014f82":["okta_user_id-0"]},"attributes":{}},{"name":"078b15cd-053c-492d-8d73-5bbf18f3e8e0.okta_id","label":"1 - Look up Group ID by Name➛Okta Group ID","reference_display":"Okta Group ID","type":"string","base_type":"string","usedInstances":{"57e91de7-e47a-43ce-aad1-4cb0c0014f82":["okta_group_id-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5697d4d2-3b52-4415-984b-b0d5323294a0"}},{"name":"flow_variable.okta_user_id","label":"Flow Variables➛Okta User ID","type":"string","base_type":"string","usedInstances":{"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6":["okta_id"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"692add35-a6b1-4e45-9e5e-176d933df055"}},{"name":"flow_variable.okta_group_id","label":"Flow Variables➛Okta Group ID","type":"string","base_type":"string","usedInstances":{"7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6":["group_okta_id"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e4996186-f08f-4d15-abb9-47a94af8196b"}},{"name":"subflow.user_name","label":"Input➛Bot Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"97d58bd9-b168-4af2-a262-cfcbf17ff41e":["display_name"]}},{"name":"subflow.group_name","label":"Input➛Residents Group Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"03968c55-83e7-46ec-96b6-0ec344d0aa62":["display_name"],"078b15cd-053c-492d-8d73-5bbf18f3e8e0":["okta_id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4722bea7-420f-4be4-93d8-544c51c1b4b6","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master>true</master>
+        <name>Is Bot member of Residence</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9777872ec3054610923701e9d001313d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9777872ec3054610923701e9d001313d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9777872ec3054610923701e9d001313d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d^id=9777872ec3054610923701e9d001313d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9777872ec3054610923701e9d001313d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9777872ec3054610923701e9d001313d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9777872ec3054610923701e9d001313d^sys_idNOT INdf77872ec3054610923701e9d001313d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9777872ec3054610923701e9d001313d</id>
+        <name>Is Bot member of Residence</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>df77872ec3054610923701e9d001313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=df77872ec3054610923701e9d001313d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9777872ec3054610923701e9d001313d^sys_idNOT IN1777872ec3054610923701e9d001313f,6777872ec3054610923701e9d001315f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=792e9185-fb46-420a-b6f9-d9d510827222</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Guide Bot</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Bot Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</model>
+        <model_id>9777872ec3054610923701e9d001313d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>1777872ec3054610923701e9d001313f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1777872ec3054610923701e9d001313f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4722bea7-420f-4be4-93d8-544c51c1b4b6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Spokeland Residence</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Residents Group Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</model>
+        <model_id>9777872ec3054610923701e9d001313d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>6777872ec3054610923701e9d001315f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6777872ec3054610923701e9d001315f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9777872ec3054610923701e9d001313d^sys_idNOT INab77872ec3054610923701e9d001316b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=720898ac-2070-4df3-aecf-a50d02d49cb3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>is_user_in_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Is Bot member of Residence</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</model>
+        <model_id>9777872ec3054610923701e9d001313d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>ab77872ec3054610923701e9d001316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab77872ec3054610923701e9d001316b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9777872ec3054610923701e9d001313d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9777872ec3054610923701e9d001313d^sys_idNOT IN3377872ec3054610923701e9d00131b7,3777872ec3054610923701e9d001319a,7b77872ec3054610923701e9d00131ca,f7b1b495c319025099c5b4edd40131ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look up Users Stream">940828780f861010c0a0579ac4767e8c</action_type>
+        <action_type_parent display_value="Look up Users Stream">605d5cb00f861010c0a0579ac4767e0a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>3377872ec3054610923701e9d00131b7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>7fa768d7-7fad-46f0-bf7a-c17102a1e5c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3377872ec3054610923701e9d00131b7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_940828780f861010c0a0579ac4767e8c^id=3377872ec3054610923701e9d00131b7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3377872ec3054610923701e9d00131b7^sys_idNOT IN7f77872ec3054610923701e9d00131b7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>filter</input_name>
+        <instance>3377872ec3054610923701e9d00131b7</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"filter":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar firstName \u003d fd_data.subflow_inputs.user_name.split(\" \")[0];\nvar lastName \u003d fd_data.subflow_inputs.user_name.split(\" \")[1];\nreturn \u0027profile.firstName eq \"\u0027+firstName+\u0027\" and profile.lastName eq \"\u0027+lastName+\u0027\"\u0027;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>7f77872ec3054610923701e9d00131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3377872ec3054610923701e9d00131b7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look up Group ID by Name">dc2a00d2133ed300d44a32228144b087</action_type>
+        <action_type_parent display_value="Look up Group ID by Name">aab39902137ad30056193192e144b09a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>3777872ec3054610923701e9d001319a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>078b15cd-053c-492d-8d73-5bbf18f3e8e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3777872ec3054610923701e9d001319a"/>
+    <sys_element_mapping action="delete_multiple" query="id=3777872ec3054610923701e9d001319a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_id</field>
+        <id>3777872ec3054610923701e9d001319a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>7b77872ec3054610923701e9d001319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc2a00d2133ed300d44a32228144b087</table>
+        <value>{{subflow.group_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3777872ec3054610923701e9d001319a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3777872ec3054610923701e9d001319a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Is User in Group">6d2efc1a13bed300d44a32228144b05b</action_type>
+        <action_type_parent display_value="Is User in Group">bc39349613bed300d44a32228144b01d</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:54</sys_created_on>
+        <sys_id>7b77872ec3054610923701e9d00131ca</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b77872ec3054610923701e9d00131ca"/>
+    <sys_element_mapping action="delete_multiple" query="id=7b77872ec3054610923701e9d00131ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_okta_id</field>
+        <id>7b77872ec3054610923701e9d00131ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:54</sys_created_on>
+        <sys_id>3f77872ec3054610923701e9d00131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d2efc1a13bed300d44a32228144b05b</table>
+        <value>{{flow_variable.okta_group_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_id</field>
+        <id>7b77872ec3054610923701e9d00131ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:54</sys_created_on>
+        <sys_id>ff77872ec3054610923701e9d00131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d2efc1a13bed300d44a32228144b05b</table>
+        <value>{{flow_variable.okta_user_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7b77872ec3054610923701e9d00131ca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b77872ec3054610923701e9d00131ca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="OpenGate">83117455c319025099c5b4edd40131dc</action_type>
+        <action_type_parent display_value="OpenGate">3f5cf349c315025099c5b4edd401310a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9d10d96c-3a9d-43d2-b06a-3739fc08f145</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:35:55</sys_created_on>
+        <sys_id>f7b1b495c319025099c5b4edd40131ce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>86c89eff-9a6d-49e3-a8bb-7f22f1c84d04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f7b1b495c319025099c5b4edd40131ce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f7b1b495c319025099c5b4edd40131ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f7b1b495c319025099c5b4edd40131ce"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9777872ec3054610923701e9d001313d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9777872ec3054610923701e9d001313d^sys_idNOT IN6377872ec3054610923701e9d001317f,6b77872ec3054610923701e9d0013183,f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8ce14f26c3054610923701e9d00131d6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>okta_user_id,okta_group_id</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7fa768d7-7fad-46f0-bf7a-c17102a1e5c3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>6377872ec3054610923701e9d001317f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>57e91de7-e47a-43ce-aad1-4cb0c0014f82</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6377872ec3054610923701e9d001317f"/>
+    <sys_element_mapping action="delete_multiple" query="id=6377872ec3054610923701e9d001317f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_group_id</field>
+        <id>6377872ec3054610923701e9d001317f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>2377872ec3054610923701e9d0013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d</table>
+        <value>{{078b15cd-053c-492d-8d73-5bbf18f3e8e0.okta_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>okta_user_id</field>
+        <id>6377872ec3054610923701e9d001317f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>6b77872ec3054610923701e9d0013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d</table>
+        <value>{{7fa768d7-7fad-46f0-bf7a-c17102a1e5c3.variable.externalId}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d^id=6377872ec3054610923701e9d001317f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6377872ec3054610923701e9d001317f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6377872ec3054610923701e9d001317f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">73048be6c3054610923701e9d001317d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>is_user_in_group</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>6b77872ec3054610923701e9d0013183</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>0037b282-5d9c-44e2-8f96-2f2e854ae706</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6b77872ec3054610923701e9d0013183"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6b77872ec3054610923701e9d0013183</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>ab77872ec3054610923701e9d0013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Bot member of Residence">ab77872ec3054610923701e9d001316b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d^id=6b77872ec3054610923701e9d0013183"/>
+    <sys_element_mapping action="delete_multiple" query="id=6b77872ec3054610923701e9d0013183"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_user_in_group</field>
+        <id>6b77872ec3054610923701e9d0013183</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:53</sys_created_on>
+        <sys_id>2b77872ec3054610923701e9d0013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:53</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d</table>
+        <value>{{7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6b77872ec3054610923701e9d0013183"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b77872ec3054610923701e9d0013183"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c3a1b095c319025099c5b4edd40131f6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:35:55</sys_created_on>
+        <sys_id>f3b1b495c319025099c5b4edd40131d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:56</sys_updated_on>
+        <ui_id>9d10d96c-3a9d-43d2-b06a-3739fc08f145</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d^id=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_element_mapping action="delete_multiple" query="id=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f3b1b495c319025099c5b4edd40131d5</id>
+        <sys_created_by>swati.agarwal@snc</sys_created_by>
+        <sys_created_on>2024-03-31 08:35:55</sys_created_on>
+        <sys_id>7fb1b495c319025099c5b4edd40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:35:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7ff60a36-4cd7-4ec1-9f09-8d51c03a75f6.is_member}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d^id=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3b1b495c319025099c5b4edd40131d5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9777872ec3054610923701e9d001313d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9777872ec3054610923701e9d001313d^sys_idNOT IN6777872ec3054610923701e9d001317b,ef77872ec3054610923701e9d0013177"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=692add35-a6b1-4e45-9e5e-176d933df055</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>okta_user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Okta User ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</model>
+        <model_id>9777872ec3054610923701e9d001313d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>6777872ec3054610923701e9d001317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e4996186-f08f-4d15-abb9-47a94af8196b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>okta_group_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Okta Group ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Is Bot member of Residence">9777872ec3054610923701e9d001313d</model>
+        <model_id>9777872ec3054610923701e9d001313d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_9777872ec3054610923701e9d001313d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>ef77872ec3054610923701e9d0013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d^sys_idNOT IN2377872ec3054610923701e9d001315c,6f77872ec3054610923701e9d0013166"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_name</element>
+        <help/>
+        <hint/>
+        <label>Bot Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>2377872ec3054610923701e9d001315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group_name</element>
+        <help/>
+        <hint/>
+        <label>Residents Group Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>6f77872ec3054610923701e9d0013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9777872ec3054610923701e9d001313d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d^sys_idNOT IN6377872ec3054610923701e9d0013170"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>is_user_in_group</element>
+        <help/>
+        <hint/>
+        <label>Is Bot member of Residence</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:52</sys_created_on>
+        <sys_id>6377872ec3054610923701e9d0013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 06:26:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9777872ec3054610923701e9d001313d"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d586f226c3c14610923701e9d00131cc</sys_id>
+        <latest_snapshot>9777872ec3054610923701e9d001313d</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d586f226c3c14610923701e9d00131cc"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d586f226c3c14610923701e9d00131cc^sys_idNOT IN9487c72ec3054610923701e9d001316c"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@4d835087</plan>
+        <plan_id display_value="Is Bot member of Residence">d586f226c3c14610923701e9d00131cc</plan_id>
+        <snapshot>9777872ec3054610923701e9d001313d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:26:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9487c72ec3054610923701e9d001316c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>swati.agarwal@snc</sys_updated_by>
+        <sys_updated_on>2024-03-31 08:36:00</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

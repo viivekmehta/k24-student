@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>generate_random_question</internal_name>
+        <label_cache>[{"name":"bc97bd4a-b721-4684-856c-7f9750b98291.question","label":"1 - Generate Random Questions➛Question","type":"string","base_type":"string","usedInstances":{"204ff856-e68d-41cc-87fd-b1c669c9d927":["body"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"dbb7a61b-a3a5-4b8c-9843-809d04831a9b"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Generate Random Question</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:37:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdbd034ec3c9c21099c5b4edd401311d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Generate Random Question</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>sys_hub_flow_cdbd034ec3c9c21099c5b4edd401311d</sys_update_name>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:42:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=cdbd034ec3c9c21099c5b4edd401311d^sys_idNOT IN7b4e478ec3c9c21099c5b4edd401317d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate Random Question">cdbd034ec3c9c21099c5b4edd401311d</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:39:41</sys_created_on>
+        <sys_id>7b4e478ec3c9c21099c5b4edd401317d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:42:28</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b4e478ec3c9c21099c5b4edd401317d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7b4e478ec3c9c21099c5b4edd401317d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:39:41</sys_created_on>
+        <sys_id>f74ec78ec3c9c21099c5b4edd4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:39:41</sys_updated_on>
+        <value>1970-01-01 00:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=7b4e478ec3c9c21099c5b4edd401317d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cdbd034ec3c9c21099c5b4edd401311d^sys_idNOT IN8dbd4b4ec3c9c21099c5b4edd40131e3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cdbd034ec3c9c21099c5b4edd401311d</id>
+        <name>Generate Random Question</name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:37:03</sys_created_on>
+        <sys_id>8dbd4b4ec3c9c21099c5b4edd40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:37:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8dbd4b4ec3c9c21099c5b4edd40131e3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cdbd034ec3c9c21099c5b4edd401311d^sys_idNOT IN655e0b8ec3c9c21099c5b4edd4013130,bb4ec78ec3c9c21099c5b4edd401317f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Trivia Table">dc6dc34ec3c9c21099c5b4edd401319e</action_type>
+        <action_type_parent display_value="Update Trivia Table">585803c6c3c9c21099c5b4edd40131ff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Generate Random Question">cdbd034ec3c9c21099c5b4edd401311d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:39:49</sys_created_on>
+        <sys_id>655e0b8ec3c9c21099c5b4edd4013130</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:42:28</sys_updated_on>
+        <ui_id>204ff856-e68d-41cc-87fd-b1c669c9d927</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=655e0b8ec3c9c21099c5b4edd4013130"/>
+    <sys_element_mapping action="delete_multiple" query="id=655e0b8ec3c9c21099c5b4edd4013130"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>655e0b8ec3c9c21099c5b4edd4013130</id>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:40:00</sys_created_on>
+        <sys_id>5c6e0b8ec3c9c21099c5b4edd4013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:40:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc6dc34ec3c9c21099c5b4edd401319e</table>
+        <value>{{bc97bd4a-b721-4684-856c-7f9750b98291.question}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=655e0b8ec3c9c21099c5b4edd4013130"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=655e0b8ec3c9c21099c5b4edd4013130"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Generate Random Questions">871ec38ec3c9c21099c5b4edd401311c</action_type>
+        <action_type_parent display_value="Generate Random Questions">bc1e438ec3c9c21099c5b4edd40131a0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Generate Random Question">cdbd034ec3c9c21099c5b4edd401311d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vivek.mehta@snc</sys_created_by>
+        <sys_created_on>2024-03-21 17:39:41</sys_created_on>
+        <sys_id>bb4ec78ec3c9c21099c5b4edd401317f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_updated_by>vivek.mehta@snc</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:42:28</sys_updated_on>
+        <ui_id>bc97bd4a-b721-4684-856c-7f9750b98291</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb4ec78ec3c9c21099c5b4edd401317f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb4ec78ec3c9c21099c5b4edd401317f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb4ec78ec3c9c21099c5b4edd401317f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cdbd034ec3c9c21099c5b4edd401311d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cdbd034ec3c9c21099c5b4edd401311d"/>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_record_from_master_instance</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Record from master instance</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:44:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ab1438ac389c21099c5b4edd401319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Record from master instance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1ab1438ac389c21099c5b4edd401319b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:44:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_variable_value action="DELETE" query="document_key=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_step_instance action="DELETE" query="action=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_action_input action="DELETE" query="model=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_action_output action="DELETE" query="model=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=1ab1438ac389c21099c5b4edd401319b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</application>
+        <file_path/>
+        <instance_id>81fbe74ddb85829002022a5913961944</instance_id>
+        <instance_name>k24student</instance_name>
+        <name>sys_hub_action_type_definition_1ab1438ac389c21099c5b4edd401319b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category display_value="">{}</category><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority/><ih_action>false</ih_action><internal_name>get_record_from_master_instance</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Get Record from master instance</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 16:44:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ab1438ac389c21099c5b4edd401319b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get Record from master instance</sys_name><sys_overrides/><sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package><sys_policy/><sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope><sys_update_name>sys_hub_action_type_definition_1ab1438ac389c21099c5b4edd401319b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 16:44:43</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=1ab1438ac389c21099c5b4edd401319b"/><sys_variable_value action="delete_multiple" query="document_key=1ab1438ac389c21099c5b4edd401319b"/><sys_hub_step_instance action="delete_multiple" query="action=1ab1438ac389c21099c5b4edd401319b"/><sys_hub_action_input action="delete_multiple" query="model=1ab1438ac389c21099c5b4edd401319b"/><sys_hub_action_output action="delete_multiple" query="model=1ab1438ac389c21099c5b4edd401319b"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=1ab1438ac389c21099c5b4edd401319b"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1ab1438ac389c21099c5b4edd401319b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1ab1438ac389c21099c5b4edd401319b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1ab1438ac389c21099c5b4edd401319b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1ab1438ac389c21099c5b4edd401319b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1ab1438ac389c21099c5b4edd401319b"/><sys_hub_action_plan action="delete_multiple" query="action_id=1ab1438ac389c21099c5b4edd401319b"/></record_update>]]></payload>
+        <payload_hash>272399895</payload_hash>
+        <record_name>Get Record from master instance</record_name>
+        <reverted_from/>
+        <source>82ade582c3cd8210923701e9d00131e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:44:43</sys_created_on>
+        <sys_id>52b1438ac389c21099c5b4edd40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e61e68d080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:44:43</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>56b1438a3e89c210a9eb2aaf34e09d9f</update_guid>
+        <update_guid_history>56b1438a3e89c210a9eb2aaf34e09d9f:272399895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:38:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>0133d184aedd4d9c800b2f461daff761</sys_id>
+        <sys_metadata>1ab1438ac389c21099c5b4edd401319b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Record from master instance</sys_name>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_scope_delete display_value="">63ced33510cb4224a69676df9c23dc29</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_1ab1438ac389c21099c5b4edd401319b</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_1ab1438ac389c21099c5b4edd401319b">52b1438ac389c21099c5b4edd40131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:38:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

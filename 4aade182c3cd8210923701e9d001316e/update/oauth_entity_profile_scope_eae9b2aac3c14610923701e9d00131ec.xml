@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Microsoft Entra ID Profile">eee9b2aac3c14610923701e9d00131e6</oauth_entity_profile>
+        <oauth_entity_scope display_value="Offline Access">aae9b2aac3c14610923701e9d00131e2</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 05:27:33</sys_created_on>
+        <sys_id>eae9b2aac3c14610923701e9d00131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eee9b2aac3c14610923701e9d00131e6</sys_name>
+        <sys_package display_value="Knowledge 24 Student" source="x_snc_knowledge_24">4aade182c3cd8210923701e9d001316e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge 24 Student">4aade182c3cd8210923701e9d001316e</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_eae9b2aac3c14610923701e9d00131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 05:27:33</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>
